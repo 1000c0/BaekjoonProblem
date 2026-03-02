@@ -1,3 +1,5 @@
 from collections import deque
 
-print("aa")
+n, m, v = map(int, input().split())
+dfs_ans = []
+bfs_ans = []
